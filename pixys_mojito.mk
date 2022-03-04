@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some Pixys stuffs
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# ANXCamera v185
+$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
